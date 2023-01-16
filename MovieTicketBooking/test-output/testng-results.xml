@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26275" started-at="2023-01-13T14:29:50 IST" finished-at="2023-01-13T14:30:16 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26275" started-at="2023-01-13T14:29:50 IST" finished-at="2023-01-13T14:30:16 IST">
+      <class name="skills.TC_NewEmployee_004Test">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:skills.TC_NewEmployee_004Test@528931cf]" name="openTheBrowser" is-config="true" duration-ms="2650" started-at="2023-01-13T14:29:50 IST" finished-at="2023-01-13T14:29:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="navigateToApplication()[pri:0, instance:skills.TC_NewEmployee_004Test@528931cf]" name="navigateToApplication" is-config="true" duration-ms="689" started-at="2023-01-13T14:29:52 IST" finished-at="2023-01-13T14:29:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method status="PASS" signature="Booking()[pri:0, instance:skills.TC_NewEmployee_004Test@528931cf]" name="Booking" duration-ms="21813" started-at="2023-01-13T14:29:53 IST" finished-at="2023-01-13T14:30:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Booking -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:skills.TC_NewEmployee_004Test@528931cf]" name="closeTheBrowser" is-config="true" duration-ms="1090" started-at="2023-01-13T14:30:15 IST" finished-at="2023-01-13T14:30:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- skills.TC_NewEmployee_004Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
